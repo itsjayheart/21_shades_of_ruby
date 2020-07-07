@@ -9,7 +9,7 @@ email_list = [email]
 				email_number = email_number + 1
 				email = "jean.dupont.0" + email_number.to_s + "@email.fr"
 				email_list[0] = email
-			elsif email_number < 10
+			elsif email_number < 9
 				email_number = email_number + 1
 				email = "jean.dupont.0" + email_number.to_s + "@email.fr"
 				email_list << email
